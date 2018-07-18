@@ -18,5 +18,8 @@ RUN install2.r --error \
     lubridate \
     ngram \
     readr \
+    googleComputeEngineR \
+    googleAuthR \
+    foreach \
     ## clean up
     && rm -rf /tmp/downloaded_packages/ /tmp/*.rds
