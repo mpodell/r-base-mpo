@@ -23,3 +23,5 @@ RUN install2.r --error \
     foreach \
     ## clean up
     && rm -rf /tmp/downloaded_packages/ /tmp/*.rds
+
+CMD ["R", "--no-save"]
