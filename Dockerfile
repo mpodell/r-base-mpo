@@ -25,4 +25,4 @@ RUN install2.r --error \
     ## clean up
     && rm -rf /tmp/downloaded_packages/ /tmp/*.rds
 
-CMD ["R", "--no-save"]
+CMD ["R", "--no-save", "--RS-port 22"]
