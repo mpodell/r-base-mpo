@@ -12,13 +12,17 @@ RUN apt-get update && apt-get install -y \
 ## Install packages from CRAN
 RUN install2.r --error \
     -r 'http://cran.rstudio.com' \
+    testthat \
     bigrquery \
     jsonlite \
-    dplyr \
+    future \
+    listenv \
+    tidyverse \
     magrittr \
     lubridate \
     ngram \
     readr \
+    igraph \
     googleComputeEngineR \
     googleAuthR \
     foreach \
