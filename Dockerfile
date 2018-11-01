@@ -12,6 +12,8 @@ RUN apt-get update && apt-get install -y \
 ## Install packages from CRAN
 RUN install2.r --error \
     -r 'http://cran.rstudio.com' \
+    xml2 \
+    rvest \
     testthat \
     bigrquery \
     jsonlite \
