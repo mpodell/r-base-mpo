@@ -5,7 +5,7 @@ RUN apt-get update && apt-get install -y \
     libcurl4-openssl-dev \
     openssh-client \
     libxml2-dev \
-    
+
     ## clean up
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/ \
@@ -17,6 +17,7 @@ RUN install2.r --error \
     xml2 \
     rvest \
     testthat \
+    devtools \
     bigrquery \
     jsonlite \
     future \
