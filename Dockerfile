@@ -17,6 +17,7 @@ RUN install2.r --error \
     xml2 \
     rvest \
     testthat \
+    Rcpp \
     devtools \
     bigrquery \
     jsonlite \
